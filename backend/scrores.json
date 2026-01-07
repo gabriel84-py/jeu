@@ -1,0 +1,7 @@
+curl -X POST https://ton-n8n.com/webhook/deploy-static-site \
+  -H "Content-Type: application/json" \
+  -d '{
+    "subdomain": "monsite",
+    "git_repo": "https://github.com/ton-user/ton-repo.git",
+    "git_branch": "main"
+  }'
